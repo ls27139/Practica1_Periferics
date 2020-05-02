@@ -8,14 +8,13 @@
   ******************************************************************************
 */
 
+#include "stm32f4xx.h"
+
 /*********************Variables globales*********************/
 #define ITM_Port32(n) (*((volatile unsigned long *)(0xE0000000+4*n)))
 
-#include "stm32f4xx.h"
-
 int periodoTiempo = 0;
 float temps;
-int ticks = 0; //cada 5 milisegundos un tick
 int Tiempo_RPM;
 
 
