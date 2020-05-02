@@ -2,8 +2,7 @@
   ******************************************************************************
   * @file    main.c
   * @author	Sergio Rodrigo Briones
-  * @author
-  * @version V1.0
+  * @author	Victor Garrido
   * @date
   * @brief   Default main function.
   ******************************************************************************
